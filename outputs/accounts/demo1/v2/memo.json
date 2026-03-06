@@ -1,0 +1,33 @@
+{
+  "account_id": "demo1",
+  "company_name": "ABC Fire Protection",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "start": "Monday to Friday 7am",
+    "end": "6pm",
+    "timezone": "Eastern"
+  },
+  "office_address": "",
+  "services_supported": [
+    "Sprinkler Repair",
+    "Fire Alarm Inspections"
+  ],
+  "emergency_definition": [
+    "sprinkler leaks",
+    "fire alarm triggers"
+  ],
+  "emergency_routing_rules": "Transfer immediately to the on call technician",
+  "non_emergency_routing_rules": "Schedule during business hours",
+  "call_transfer_rules": "transfer fails after 60 seconds dispatch should be notified",
+  "integration_constraints": "",
+  "After Hours Flow Summary": "",
+  "Office Hours Flow Summary": "",
+  "questions_or_unknowns": [],
+  "notes": ""
+}

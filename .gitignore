@@ -1,0 +1,9 @@
+dataset/demo_calls/*
+dataset/onboarding_calls/*
+
+!dataset/demo_calls/sample_demo.txt
+!dataset/onboarding_calls/sample_onboarding.txt
+
+__pycache__/
+*.pyc
+logs/
